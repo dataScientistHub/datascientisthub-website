@@ -232,14 +232,14 @@
             a clear website, curated examples, and a small library of high-value capabilities.
           </p>
         </div>
-        <form class="contact-form" action="mailto:info@datascientisthub.com?subject=DataScientistHub%20early%20access%20interest" method="post" enctype="text/plain">
+        <form class="contact-form" action="https://formspree.io/f/mlgvpwgd" method="post">
           <label>
             Name
-            <input type="text" name="name" placeholder="Your name">
+            <input type="text" name="name" placeholder="Your name" required>
           </label>
           <label>
             Email
-            <input type="email" name="email" placeholder="you@example.com">
+            <input type="email" name="email" placeholder="you@example.com" required>
           </label>
           <label>
             Interest
@@ -254,8 +254,10 @@
             Message
             <textarea name="message" rows="4" placeholder="Tell us what you want to discover, build, or contribute."></textarea>
           </label>
+          <input type="hidden" name="_subject" value="New DataScientistHub early access interest">
+          <input type="hidden" name="_next" value="https://www.datascientisthub.com/thanks.html">
           <button class="button primary" type="submit">Send interest</button>
-          <p class="form-note">Thank you for your interest. This opens your email app and sends your message to info@datascientisthub.com.</p>
+          <p class="form-note">Thank you for your interest. Your message will be sent securely to the DataScientistHub team.</p>
         </form>
       </section>
     </main>

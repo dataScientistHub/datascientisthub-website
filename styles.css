@@ -496,6 +496,31 @@ textarea:focus {
   padding: 24px clamp(18px, 4vw, 58px);
 }
 
+.thank-you-page {
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+  padding: 24px;
+}
+
+.thank-you-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  box-shadow: var(--shadow);
+  margin: 0 auto;
+  max-width: 720px;
+  padding: clamp(32px, 6vw, 64px);
+}
+
+.thank-you-card h1 {
+  font-size: clamp(44px, 7vw, 70px);
+}
+
+.thank-you-card .button {
+  margin-top: 18px;
+}
+
 .site-footer div {
   display: grid;
   gap: 7px;
